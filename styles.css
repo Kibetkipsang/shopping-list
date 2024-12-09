@@ -1,0 +1,70 @@
+body{
+    /* display: flex;
+    justify-content: center; */
+    color: rgb(20, 28, 10);
+    text-align: center;
+    background-image: url(woman.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+font-size: 45px;
+text-align: center;
+display: inline-block;
+padding-left: 3%;
+padding-right: 3%;
+padding-top: 1%;
+padding-bottom: 1%;
+text-shadow: -3px 3px 2px rgb(223, 223, 57),3px -3px 2px rgb(182, 45, 45) ;
+/* background-color: rgb(212, 244, 244); */
+background-position: center;
+}
+P{
+text-shadow: -3px 3px 2px rgb(144, 0, 255),3px -3px 2px rgb(38, 0, 255) ;
+color: aliceblue;
+font-size: 30px;
+display: inline-block;
+padding-left: 3%;
+padding-right: 3%;
+}
+#whole{
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin around the body */
+    flex-direction: column;
+}
+#list{
+    background-color: white;
+  color: rgb(20, 28, 10);
+  font-family: Arial, sans-serif;
+}
+#yes{
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border: 1px solid #f1c1c1;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.purchased {
+    text-decoration: line-through;
+    background-color: #52f052;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
