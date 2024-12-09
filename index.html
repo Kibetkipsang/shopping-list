@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+<div id="whole">   
+<header>
+    <h1>Shopping list</h1> <br><br>
+    <p>I want to purchase the following items</p>
+
+</header>
+
+<!-- item input space -->
+ <input type="text" id="input" placeholder="type item here"style="background-color: white;color: black;" >
+<!-- actions perfomed here    -->
+ <div id="yes">
+  <button type="button" id="addButton" style="background-color: blue;color: aliceblue;">Add Item</button>
+  <button type="button" id="clearButton" style="background-color: blue;color: aliceblue;">Clear Item</button>
+</div>
+<!-- added items display -->
+  <ul id="list"></ul>
+  <!-- submission of items added to the list -->
+  <button type="button" id="submitButton" style="background-color: blue;color: aliceblue;">Submit</button>
+</div>
+<script src="ourlist.js"></script>
+</body>
+</html>
