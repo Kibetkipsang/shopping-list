@@ -3,7 +3,7 @@ body{
     justify-content: center; */
     color: rgb(20, 28, 10);
     text-align: center;
-    background-image: url(woman.jpg);
+    background-image: url('/woman.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
